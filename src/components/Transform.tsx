@@ -5,7 +5,7 @@ import ctaBanner from "@/assets/cta-banner.png";
 const Transform = () => {
   return (
     <section 
-      className="relative py-32 bg-cover bg-center bg-no-repeat"
+      className="relative py-48 bg-cover bg-center bg-no-repeat"
       style={{ backgroundImage: `url(${ctaBanner})` }}
     >
       <div className="absolute inset-0 bg-black/50"></div>
